@@ -1,0 +1,28 @@
+# --- ADDED FOR DATA ANALYTICS / BI / SQL ---
+
+# Exclude common Excel/CSV temporary files
+~$*.xlsx
+~$*.xls
+~$*.csv
+
+# Exclude Power BI / Tableau files
+*.pbit
+*.pbix.backup
+*.twbr
+*.twbx.temp
+*.tfl
+
+# Exclude Database files (CRITICAL for security/cleanliness)
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.bak
+*.log
+.env
+credentials.txt
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
